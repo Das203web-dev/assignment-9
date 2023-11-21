@@ -1,0 +1,230 @@
+{
+    "categories": [
+        {
+            "id": "wedding_001",
+            "category": "Wedding",
+            "description": [
+                "A celebration of love and commitment, a wedding marks the beginning of a beautiful journey.",
+                "From exquisite decorations to capturing cherished moments, make this day unforgettable."
+            ],
+            "image": "wedding_image.jpg",
+            "services": [
+                {
+                    "tier": "Gold",
+                    "title": "Gold Package",
+                    "description": [
+                        {
+                            "point": "An all-inclusive package featuring luxurious decorations."
+                        },
+                        {
+                            "point": "Top-tier catering for a delightful dining experience."
+                        },
+                        {
+                            "point": "Premium photography & videography services to capture every moment."
+                        }
+                    ]
+                },
+                {
+                    "tier": "Silver",
+                    "title": "Silver Package",
+                    "description": [
+                        {
+                            "point": "Elegant decorations creating a magical atmosphere."
+                        },
+                        {
+                            "point": "A variety of menu options to suit every taste."
+                        },
+                        {
+                            "point": "Professional photography services to preserve your special day."
+                        }
+                    ]
+                },
+                {
+                    "tier": "Basic",
+                    "title": "Basic Package",
+                    "description": [
+                        {
+                            "point": "Essential decorations to enhance the ambiance."
+                        },
+                        {
+                            "point": "Standard catering options for a satisfying dining experience."
+                        },
+                        {
+                            "point": "Basic photography coverage to capture key moments."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "birthday_002",
+            "category": "Birthday Parties",
+            "description": [
+                "Celebrate another year of life with joy and laughter.",
+                "From themed decorations to entertainment, make every birthday a memorable bash."
+            ],
+            "image": "birthday_image.jpg",
+            "services": [
+                {
+                    "tier": "Premium",
+                    "title": "Premium Celebration",
+                    "description": [
+                        {
+                            "point": "Exclusive themed decorations for a personalized touch."
+                        },
+                        {
+                            "point": "Top-tier entertainment to keep everyone engaged."
+                        },
+                        {
+                            "point": "Customized cake and dessert options for a sweet celebration."
+                        }
+                    ]
+                },
+                {
+                    "tier": "Silver",
+                    "title": "Silver Celebration",
+                    "description": [
+                        {
+                            "point": "Themed decorations creating a festive ambiance."
+                        },
+                        {
+                            "point": "Varied entertainment options for an enjoyable party."
+                        },
+                        {
+                            "point": "A selection of delicious desserts to delight your guests."
+                        }
+                    ]
+                },
+                {
+                    "tier": "Standard",
+                    "title": "Standard Celebration",
+                    "description": [
+                        {
+                            "point": "Basic decorations to set the party mood."
+                        },
+                        {
+                            "point": "Standard entertainment for a fun-filled gathering."
+                        },
+                        {
+                            "point": "A birthday cake to mark the special day."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "anniversary_003",
+            "category": "Anniversary",
+            "description": [
+                "Commemorate years of togetherness and love.",
+                "Whether it's the first or fiftieth anniversary, celebrate your enduring bond."
+            ],
+            "image": "anniversary_image.jpg",
+            "services": [
+                {
+                    "tier": "Luxury",
+                    "title": "Luxury Anniversary Package",
+                    "description": [
+                        {
+                            "point": "Extravagant decorations, gourmet dining, and a romantic getaway."
+                        }
+                    ]
+                },
+                {
+                    "tier": "Classic",
+                    "title": "Classic Anniversary Package",
+                    "description": [
+                        {
+                            "point": "Traditional decorations, fine dining experience, and personalized gifts."
+                        }
+                    ]
+                },
+                {
+                    "tier": "Simple",
+                    "title": "Simple Anniversary Package",
+                    "description": [
+                        {
+                            "point": "Subtle decorations, intimate dinner, and a heartfelt gesture."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "retirement_004",
+            "category": "Retirement",
+            "description": [
+                "Honor a career and a new chapter in life.",
+                "Celebrate the retiree's accomplishments and exciting future ahead."
+            ],
+            "image": "retirement_image.jpg",
+            "services": [
+                {
+                    "tier": "Grand",
+                    "title": "Grand Retirement Gala",
+                    "description": [
+                        {
+                            "point": "Elaborate decorations, live entertainment, and heartfelt speeches."
+                        }
+                    ]
+                },
+                {
+                    "tier": "Relaxed",
+                    "title": "Relaxed Retirement Gathering",
+                    "description": [
+                        {
+                            "point": "Casual decorations, music, and a laid-back atmosphere."
+                        }
+                    ]
+                },
+                {
+                    "tier": "Private",
+                    "title": "Private Retirement Celebration",
+                    "description": [
+                        {
+                            "point": "Simple decorations, close friends, and a cozy gathering."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "engagement_005",
+            "category": "Engagement",
+            "description": [
+                "Mark the beginning of a lifetime together.",
+                "Celebrate the commitment and the promise of a future union."
+            ],
+            "image": "engagement_image.jpg",
+            "services": [
+                {
+                    "tier": "Extravagant",
+                    "title": "Extravagant Engagement Party",
+                    "description": [
+                        {
+                            "point": "Opulent decorations, gourmet food, and entertainment."
+                        }
+                    ]
+                },
+                {
+                    "tier": "Intimate",
+                    "title": "Intimate Engagement Celebration",
+                    "description": [
+                        {
+                            "point": "Subdued decorations, close friends, and meaningful moments."
+                        }
+                    ]
+                },
+                {
+                    "tier": "Outdoor",
+                    "title": "Outdoor Engagement Gathering",
+                    "description": [
+                        {
+                            "point": "Natural decor, picnic-style food, and games in the open air."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
