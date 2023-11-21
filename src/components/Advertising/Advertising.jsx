@@ -3,7 +3,7 @@ import Marquee from 'react-fast-marquee';
 
 const Advertising = () => {
     return (
-        <div className='flex md:flex-row flex-row items-center gap-5 shadow shadow-[#101820FF] my-2 w-3/4 mx-auto'>
+        <div className='flex md:flex-row bg-[#101820FF] flex-row items-center gap-5 shadow py-2 px-1 shadow-[#101820FF] my-2 w-3/4 mx-auto absolute transform -translate-x-1/2 top-18 left-1/2 z-20'>
 
 
             <Marquee>

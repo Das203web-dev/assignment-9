@@ -10,7 +10,7 @@ const Service = () => {
     }, [])
     // console.log(services)
     return (
-        <div className='text-center  mt-24'>
+        <div className='text-center md:mx-20 mx-5 mt-24'>
             <h1 className='mb-10 text-4xl'>Our services</h1>
             <div className=''>
                 <div className=''>

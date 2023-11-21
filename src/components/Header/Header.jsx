@@ -42,7 +42,7 @@ const Header = () => {
                 borderRadius: "4px",
                 fontSize: "1rem"
             }
-        }} to={"/blogs"}>Our Blog</NavLink>
+        }} to={"/blog"}>Our Blog</NavLink>
         <NavLink style={({ isActive }) => {
             return {
                 // fontWeight: isActive ? "bold" : "",
@@ -52,11 +52,11 @@ const Header = () => {
                 borderRadius: "4px",
                 fontSize: "1rem"
             }
-        }} to={"/blogs"}>Contact</NavLink>
+        }} to={"/contact"}>Contact</NavLink>
     </>
 
     return (
-        <div className="navbar bg-[#101820FF] shadow-xl shadow-slate-600">
+        <div className="navbar bg-[#101820FF] shadow-xl sticky top-0 shadow-slate-600 z-50">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">

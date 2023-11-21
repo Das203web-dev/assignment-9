@@ -225,6 +225,62 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": "graduation_006",
+            "category": "Graduation Parties",
+            "description": [
+                "Celebrate academic milestones with joy and pride.",
+                "From themed decorations to acknowledging achievements, make each graduation a remarkable event."
+            ],
+            "image": "graduation_image.jpg",
+            "services": [
+                {
+                    "tier": "Premium",
+                    "title": "Premium Graduation Celebration",
+                    "description": [
+                        {
+                            "point": "Customized decorations reflecting the graduate's journey."
+                        },
+                        {
+                            "point": "Exciting entertainment options for a memorable celebration."
+                        },
+                        {
+                            "point": "Personalized tokens to honor academic accomplishments."
+                        }
+                    ]
+                },
+                {
+                    "tier": "Standard",
+                    "title": "Standard Graduation Party",
+                    "description": [
+                        {
+                            "point": "Simple decorations creating a festive atmosphere."
+                        },
+                        {
+                            "point": "Entertainment suitable for friends and family."
+                        },
+                        {
+                            "point": "Recognition of achievements through speeches and awards."
+                        }
+                    ]
+                },
+                {
+                    "tier": "Intimate",
+                    "title": "Intimate Graduation Gathering",
+                    "description": [
+                        {
+                            "point": "Casual decorations for a relaxed celebration."
+                        },
+                        {
+                            "point": "Close friends and family gathering to commemorate achievements."
+                        },
+                        {
+                            "point": "Personalized touches to make the event memorable."
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
