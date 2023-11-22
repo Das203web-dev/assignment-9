@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import ServiceCard from './ServiceCard/ServiceCard';
 
 const Service = () => {
@@ -15,7 +15,7 @@ const Service = () => {
             <div className=''>
                 <div className=''>
                     {
-                        services.map(service => <ServiceCard key={service.id} service={service}></ServiceCard>)
+                        services.map(service => <ServiceCard key={service.id} services={service}></ServiceCard>)
                     }
                 </div>
             </div>

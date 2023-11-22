@@ -2,8 +2,8 @@ import { NavLink } from "react-router-dom";
 
 const Footer = () => {
     return (
-        <footer className="footer footer-center p-10 shadow-2xl shadow-slate-600 bg-[#101820FF] text-base-content rounded mt-24">
-            <nav className="grid grid-flow-col text-[#F2AA4CFF] gap-4">
+        <footer className="footer footer-center p-5 md:p-10 shadow-2xl shadow-slate-600 bg-[#101820FF] text-base-content rounded mt-24">
+            <nav className="grid whitespace-nowrap grid-flow-col text-[#F2AA4CFF] gap-4">
                 <NavLink to={'/'} className="link link-hover">Home</NavLink >
                 <NavLink to={'/about'} className="link link-hover">About</NavLink >
                 <NavLink to={'/gallery'} className="link link-hover">Gallery</NavLink >

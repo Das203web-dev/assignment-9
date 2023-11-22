@@ -1,12 +1,15 @@
 import Banner from '../../components/Banner/Banner';
 import Service from '../../components/Service/Service';
-import { useLoaderData } from 'react-router-dom';
+// import { useLoaderData } from 'react-router-dom';
 import Advertising from '../../components/Advertising/Advertising';
 import heroImg2 from '../../../bannerImage/heroImg/Employment-PNG-Images.png'
+// import { useContext } from 'react';
+// import { Context } from '../../Provider/Provider';
 
 const Home = () => {
-    const allData = useLoaderData([]);
-    console.log(allData.categories)
+    // const allData = useLoaderData([]);
+    // const { currentUser } = useContext(Context)
+    // console.log(allData.categories)
     return (
         <div>
             {/* <Header></Header> */}
@@ -39,7 +42,7 @@ const Home = () => {
                     <img className='lg:h-max lg:w-full md:w-2/3 md:mx-auto' src={heroImg2} alt="" />
                 </div>
             </section>
-            <section className='flex flex-col gap-5 md:flex-row justify-between items-center md:mx-20 mx-5 mt-24'>
+            <section className='flex flex-col gap-20 md:flex-row justify-between items-center md:mx-20 mx-5 mt-24'>
                 <div className='md:w-full w-full md:text-start text-center'>
                     <h1 className='text-4xl font-bold mb-5'>News & Events</h1>
                     <p>Subscribe to receive our monthly newsletter and
@@ -47,8 +50,8 @@ const Home = () => {
                         extraordinary event news.</p>
                 </div>
                 <div className='flex flex-col gap-5  md:w-full w-full '>
-                    <input className='text-[#F2AA4CFF] px-4 py-2 rounded' type="email" name="email" id="" placeholder='Your Email' />
-                    <input className='text-[#F2AA4CFF] px-4 py-2 rounded' type="password" name="password" id="" placeholder='Your Password' />
+                    <input className='text-[#F2AA4CFF] px-4 py-2 border border-[#F2AA4CFF] rounded' type="email" name="email" id="" placeholder='Your Email' />
+                    <input className='text-[#F2AA4CFF] px-4 py-2 border border-[#F2AA4CFF] rounded' type="password" name="password" id="" placeholder='Your Password' />
                     <button className='bg-[#F2AA4CFF] text-white px-4 py-2 rounded'>Subscribe</button>
                 </div>
             </section>

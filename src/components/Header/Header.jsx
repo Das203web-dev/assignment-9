@@ -1,7 +1,22 @@
+import { useContext } from "react";
 import { GiLoveHowl } from "react-icons/gi";
 import { Link, NavLink } from 'react-router-dom';
+import { Context } from "../../Provider/Provider";
+import Profile from "../Profile/Profile";
 
 const Header = () => {
+    const { currentUser, handleSignOut } = useContext(Context);
+
+    const signOuHandler = () => {
+        handleSignOut()
+            .then(result => {
+                console.log('successfull', result)
+            })
+            .catch(error => {
+                console.log(error.message)
+            })
+    }
+
     const links = <>
         <NavLink style={({ isActive }) => {
             return {
@@ -56,7 +71,7 @@ const Header = () => {
     </>
 
     return (
-        <div className="navbar bg-[#101820FF] shadow-xl sticky top-0 shadow-slate-600 z-50">
+        <div className="navbar bg-[#101820FF] shadow-xl  shadow-slate-600 z-50">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -76,8 +91,15 @@ const Header = () => {
                     {links}
                 </ul>
             </div>
-            <div className="navbar-end">
-                <Link className="px-3 py-2 rounded text-white bg-[#F2AA4CFF]">Login</Link>
+
+            <div className="navbar-end flex gap-5">
+                {
+                    currentUser && <Profile></Profile>
+                }
+                {
+                    currentUser ? <Link onClick={signOuHandler} className="px-3 py-2 rounded text-white bg-[#F2AA4CFF]">Logout</Link> :
+                        <Link to={'/login'} className="px-3 py-2 rounded text-white bg-[#F2AA4CFF]">Login</Link>
+                }
             </div>
         </div>
     );

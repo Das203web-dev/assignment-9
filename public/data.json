@@ -11,7 +11,9 @@
             "services": [
                 {
                     "tier": "Gold",
+                    "package_for": "wedding",
                     "title": "Gold Package",
+                    "brief_description": "An all-inclusive package featuring luxurious decorations, top-tier catering, and premium photography & videography services.",
                     "description": [
                         {
                             "point": "An all-inclusive package featuring luxurious decorations."
@@ -26,7 +28,9 @@
                 },
                 {
                     "tier": "Silver",
+                    "package_for": "wedding",
                     "title": "Silver Package",
+                    "brief_description": "Elegant decorations creating a magical atmosphere, varied menu options, and professional photography services.",
                     "description": [
                         {
                             "point": "Elegant decorations creating a magical atmosphere."
@@ -41,7 +45,9 @@
                 },
                 {
                     "tier": "Basic",
+                    "package_for": "wedding",
                     "title": "Basic Package",
+                    "brief_description": "Essential decorations to enhance the ambiance, standard catering options, and basic photography coverage.",
                     "description": [
                         {
                             "point": "Essential decorations to enhance the ambiance."
@@ -67,7 +73,9 @@
             "services": [
                 {
                     "tier": "Premium",
+                    "package_for": "birthday",
                     "title": "Premium Celebration",
+                    "brief_description": "Exclusive themed decorations for a personalized touch, top-tier entertainment, and customized cake and dessert options.",
                     "description": [
                         {
                             "point": "Exclusive themed decorations for a personalized touch."
@@ -82,7 +90,9 @@
                 },
                 {
                     "tier": "Silver",
+                    "package_for": "birthday",
                     "title": "Silver Celebration",
+                    "brief_description": "Themed decorations creating a festive ambiance, varied entertainment options, and a selection of delicious desserts.",
                     "description": [
                         {
                             "point": "Themed decorations creating a festive ambiance."
@@ -97,7 +107,9 @@
                 },
                 {
                     "tier": "Standard",
+                    "package_for": "birthday",
                     "title": "Standard Celebration",
+                    "brief_description": "Basic decorations to set the party mood, standard entertainment, and a birthday cake to mark the special day.",
                     "description": [
                         {
                             "point": "Basic decorations to set the party mood."
@@ -123,7 +135,9 @@
             "services": [
                 {
                     "tier": "Luxury",
+                    "package_for": "anniversary",
                     "title": "Luxury Anniversary Package",
+                    "brief_description": "Extravagant decorations, gourmet dining, and a romantic getaway.",
                     "description": [
                         {
                             "point": "Extravagant decorations, gourmet dining, and a romantic getaway."
@@ -132,7 +146,9 @@
                 },
                 {
                     "tier": "Classic",
+                    "package_for": "anniversary",
                     "title": "Classic Anniversary Package",
+                    "brief_description": "Traditional decorations, fine dining experience, and personalized gifts.",
                     "description": [
                         {
                             "point": "Traditional decorations, fine dining experience, and personalized gifts."
@@ -141,7 +157,9 @@
                 },
                 {
                     "tier": "Simple",
+                    "package_for": "anniversary",
                     "title": "Simple Anniversary Package",
+                    "brief_description": "Subtle decorations, intimate dinner, and a heartfelt gesture.",
                     "description": [
                         {
                             "point": "Subtle decorations, intimate dinner, and a heartfelt gesture."
@@ -161,7 +179,9 @@
             "services": [
                 {
                     "tier": "Grand",
+                    "package_for": "retirement",
                     "title": "Grand Retirement Gala",
+                    "brief_description": "Elaborate decorations, live entertainment, and heartfelt speeches.",
                     "description": [
                         {
                             "point": "Elaborate decorations, live entertainment, and heartfelt speeches."
@@ -170,7 +190,9 @@
                 },
                 {
                     "tier": "Relaxed",
+                    "package_for": "retirement",
                     "title": "Relaxed Retirement Gathering",
+                    "brief_description": "Casual decorations, music, and a laid-back atmosphere.",
                     "description": [
                         {
                             "point": "Casual decorations, music, and a laid-back atmosphere."
@@ -179,7 +201,9 @@
                 },
                 {
                     "tier": "Private",
+                    "package_for": "retirement",
                     "title": "Private Retirement Celebration",
+                    "brief_description": "Simple decorations, close friends, and a cozy gathering.",
                     "description": [
                         {
                             "point": "Simple decorations, close friends, and a cozy gathering."
@@ -199,7 +223,9 @@
             "services": [
                 {
                     "tier": "Extravagant",
+                    "package_for": "engagement",
                     "title": "Extravagant Engagement Party",
+                    "brief_description": "Opulent decorations, gourmet food, and entertainment.",
                     "description": [
                         {
                             "point": "Opulent decorations, gourmet food, and entertainment."
@@ -208,7 +234,9 @@
                 },
                 {
                     "tier": "Intimate",
+                    "package_for": "engagement",
                     "title": "Intimate Engagement Celebration",
+                    "brief_description": "Subdued decorations, close friends, and meaningful moments.",
                     "description": [
                         {
                             "point": "Subdued decorations, close friends, and meaningful moments."
@@ -217,7 +245,9 @@
                 },
                 {
                     "tier": "Outdoor",
+                    "package_for": "engagement",
                     "title": "Outdoor Engagement Gathering",
+                    "brief_description": "Natural decor, picnic-style food, and games in the open air.",
                     "description": [
                         {
                             "point": "Natural decor, picnic-style food, and games in the open air."
@@ -237,7 +267,9 @@
             "services": [
                 {
                     "tier": "Premium",
+                    "package_for": "graduation",
                     "title": "Premium Graduation Celebration",
+                    "brief_description": "Customized decorations reflecting the graduate's journey, exciting entertainment options, and personalized tokens for academic accomplishments.",
                     "description": [
                         {
                             "point": "Customized decorations reflecting the graduate's journey."
@@ -252,7 +284,9 @@
                 },
                 {
                     "tier": "Standard",
+                    "package_for": "graduation",
                     "title": "Standard Graduation Party",
+                    "brief_description": "Simple decorations creating a festive atmosphere, entertainment suitable for friends and family, and recognition of achievements through speeches and awards.",
                     "description": [
                         {
                             "point": "Simple decorations creating a festive atmosphere."
@@ -267,7 +301,9 @@
                 },
                 {
                     "tier": "Intimate",
+                    "package_for": "graduation",
                     "title": "Intimate Graduation Gathering",
+                    "brief_description": "Casual decorations for a relaxed celebration, close friends and family gathering to commemorate achievements, and personalized touches for a memorable event.",
                     "description": [
                         {
                             "point": "Casual decorations for a relaxed celebration."

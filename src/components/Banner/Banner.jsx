@@ -30,7 +30,7 @@ const Banner = () => {
                     // }}
                     navigation={true}
                     modules={[Autoplay, Pagination, Navigation]}
-                    className="mySwiper w-full h-full lg:h-[500px] relative"
+                    className="mySwiper w-full h-96 lg:h-[500px] relative"
                 >
                     <SwiperSlide className='bg-[#101820FF]'><img className='w-full h-full md:h-[360px] lg:h-full opacity-40' src="/bannerImage/anniversery.jpg" alt="" />
                         <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[#F2AA4CFF] lg:text-6xl text-center font-medium text-xl '>
