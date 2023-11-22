@@ -12,6 +12,7 @@
                 {
                     "tier": "Gold",
                     "package_for": "wedding",
+                    "bg_color": "gold",
                     "title": "Gold Package",
                     "brief_description": "An all-inclusive package featuring luxurious decorations, top-tier catering, and premium photography & videography services.",
                     "description": [
@@ -29,6 +30,7 @@
                 {
                     "tier": "Silver",
                     "package_for": "wedding",
+                    "bg_color": "silver",
                     "title": "Silver Package",
                     "brief_description": "Elegant decorations creating a magical atmosphere, varied menu options, and professional photography services.",
                     "description": [

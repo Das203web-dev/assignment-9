@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import Card from "./Card/Card";
 
 const ServiceCard = ({ services }) => {
-    console.log(services)
+    // console.log(services)
     return (
         <div className="h-max">
             <h1 className="font-bold text-3xl my-14">{services.category}</h1>

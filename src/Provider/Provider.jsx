@@ -9,7 +9,8 @@ export const Context = createContext(null);
 const Provider = ({ children }) => {
 
     const [blogs, setBlogs] = useState([]);
-    const [currentUser, setCurrentUser] = useState(null)
+    const [currentUser, setCurrentUser] = useState(null);
+    const [loading, setLoading] = useState(true);
     useEffect(() => {
         fetch('/blogs.json')
             .then(res => res.json())
@@ -20,14 +21,17 @@ const Provider = ({ children }) => {
         return createUserWithEmailAndPassword(auth, email, password)
     }
     const handleLogin = (email, password) => {
+        setLoading(true)
         return signInWithEmailAndPassword(auth, email, password)
     }
     const handleSignOut = () => {
+        setLoading(true)
         return signOut(auth)
     }
     useEffect(() => {
         onAuthStateChanged(auth, (user) => {
-            setCurrentUser(user)
+            setCurrentUser(user);
+            setLoading(false)
         })
     }, []);
     const toastAlert = () => {
@@ -38,7 +42,7 @@ const Provider = ({ children }) => {
             </div>
         )
     }
-    const authPro = { blogs, handleRegister, handleLogin, handleSignOut, currentUser, toastAlert };
+    const authPro = { blogs, handleRegister, handleLogin, handleSignOut, currentUser, toastAlert, loading };
     // console.log(blogs)
     return (
         <Context.Provider value={authPro}>
