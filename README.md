@@ -10,6 +10,7 @@ https://damaging-smoke.surge.sh/
 * On the home Page Bottom there is a map 
 * There is a login and registration system 
 * You can toggle between login and registration
+* After successful login your profile picture will be displayed on the navbar (note : i am only showing the profile pic right now not anything else but can add according to the requirements and the image will be displayed only if you logged in with a gmail and if the gmail id photoUrl is not setup restricted by you)
 * If you click on the service section card details button it will take You to a private route. If you are not logged in then it will take you to the login page and if you are new to the website then you can go to the register page from the login page 
 * If you try to go to the gallery and our blogs page it will block your access if you are not logged in
 * After every successful login it will redirect you to that state that you want to go
