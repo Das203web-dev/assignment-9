@@ -2,7 +2,7 @@ import { useContext } from 'react';
 import { Context } from '../../Provider/Provider';
 import BlogCard from './BlogCard/BlogCard';
 import Shared from '../../Shared/Shared';
-import bannerImage from "../../../bannerImage/anniversery.jpg"
+import bannerImage from "../../../bannerImage/bannerImage/anniversery.jpg"
 
 const Blogs = () => {
 

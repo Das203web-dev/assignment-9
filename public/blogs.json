@@ -4,7 +4,7 @@
             "id": "blog_001",
             "title": "The Art of Crafting Memorable Weddings",
             "description": "Delve into the multifaceted art of crafting unforgettable weddings. From selecting the perfect venue adorned with exquisite decorations to orchestrating seamless ceremonies and capturing cherished moments through state-of-the-art photography and videography services, this blog explores the intricacies and nuances that contribute to a truly magical wedding experience.",
-            "image": "../bannerImage/2901.png_1200.png",
+            "image": "https://i.ibb.co/MPkdbVX/2901.png",
             "publisher": "EventBliss",
             "time": "2023-08-15"
         },
@@ -12,7 +12,7 @@
             "id": "blog_002",
             "title": "Unveiling the Charm of Birthday Celebrations",
             "description": "Embark on a journey into the vibrant world of birthday celebrations! This blog unveils the charm of themed birthday parties for individuals of all ages. Discover unique entertainment ideas, innovative decoration themes, and delightful catering options that promise to make every birthday a joyous and memorable bash for both guests and celebrants alike.",
-            "image": "../bannerImage/anniversery.jpg",
+            "image": "https://i.ibb.co/Cnd2FV7/anniversery.jpg",
             "publisher": "PartyPlannersInc",
             "time": "2023-07-25"
         },
@@ -20,7 +20,7 @@
             "id": "blog_003",
             "title": "Milestone Moments: Anniversary Celebrations",
             "description": "Celebrate the enduring bond of love through beautifully curated anniversary celebrations! This blog guides you through planning intimate dinners filled with nostalgia, grand soirées exuding elegance, and thoughtful gestures that commemorate the milestones of togetherness and everlasting commitment.",
-            "image": "../bannerImage/birthday.jpeg",
+            "image": "https://i.ibb.co/0CJcSqm/birthday.jpg",
             "publisher": "CelebrationTimes",
             "time": "2023-09-05"
         },
@@ -28,7 +28,7 @@
             "id": "blog_004",
             "title": "Retirement: A New Beginning",
             "description": "Transitioning into retirement is more than just an event; it's a celebration of a fulfilled career and a new chapter in life. This blog explores ways to honor the retiree's achievements through heartfelt gatherings, memorable speeches, and personalized events that mark the beginning of an exciting journey ahead.",
-            "image": "../bannerImage/birthday.jpg",
+            "image": "https://i.ibb.co/YB8YyDV/birthday.jpg",
             "publisher": "RetirementJourney",
             "time": "2023-08-03"
         },
@@ -36,7 +36,7 @@
             "id": "blog_005",
             "title": "Engagement Parties: Celebrating Love's Prelude",
             "description": "Set the stage for a lifetime of love with enchanting engagement parties! This blog offers insights into creating engagement soirées that mirror the couple's unique story. From opulent décor to heartfelt moments shared with friends and family, discover ideas that celebrate the commitment and promise of a future union.",
-            "image": "../bannerImage/engagement.webp",
+            "image": "https://i.ibb.co/bsmpyyw/engagement.webp",
             "publisher": "LoveInBloom",
             "time": "2023-09-20"
         },
@@ -44,7 +44,7 @@
             "id": "blog_006",
             "title": "Creating a Timeless Wedding Experience",
             "description": "Craft a wedding experience that transcends time and etches everlasting memories. This blog unravels the art of crafting a timeless wedding. Explore the blend of classic and modern elements in decorations, innovative entertainment choices, and emotional touches that transform a wedding into an eternal celebration of love.",
-            "image": "../bannerImage/pngtree-happy-retirement-and-planning-vacations-concept-png-image_6017653.png",
+            "image": "https://i.ibb.co/r0z3Tjv/pngtree-happy-retirement-and-planning-vacations-concept-png-image-6017653.png",
             "publisher": "EternalEvents",
             "time": "2023-10-10"
         },
@@ -52,7 +52,7 @@
             "id": "blog_007",
             "title": "Themed Birthdays: A Complete Guide",
             "description": "Dive into the world of themed birthday parties with this comprehensive guide! From planning themed decorations to coordinating entertainment and unique culinary experiences, this blog is a treasure trove of ideas to make themed birthdays a standout celebration for individuals of all ages.",
-            "image": "../bannerImage/retirement.jpg",
+            "image": "https://i.ibb.co/FhwGfZN/retirement.webp",
             "publisher": "PartyPros",
             "time": "2023-11-02"
         },
@@ -60,7 +60,7 @@
             "id": "blog_008",
             "title": "Honoring Years Together: Anniversary Celebrations Revisited",
             "description": "Rediscover the beauty of celebrating anniversaries with this revisited guide! From recreating the magic of first encounters to weaving timeless moments into anniversary celebrations, this blog shares innovative ideas and thoughtful gestures to commemorate years of togetherness.",
-            "image": "../bannerImage/seo_retirement-party-ideas_013123.jpg",
+            "image": "https://i.ibb.co/R6PQG4s/seo-retirement-party-ideas-013123.jpg",
             "publisher": "LoveChronicles",
             "time": "2023-10-20"
         },
@@ -68,7 +68,7 @@
             "id": "blog_009",
             "title": "Retirement Parties: Saying Farewell and Embracing New Beginnings",
             "description": "Bid farewell to a remarkable career and welcome new beginnings with heartfelt retirement parties! This blog offers insights into planning retirement gatherings that honor achievements and celebrate the retiree's legacy while embracing the exciting journey ahead.",
-            "image": "../bannerImage/wedding.jpg",
+            "image": "https://i.ibb.co/ZNJHHm2/wedding.png",
             "publisher": "LegacyFarewell",
             "time": "2023-11-12"
         },
@@ -76,7 +76,7 @@
             "id": "blog_010",
             "title": "Engagement Soirées: An Expression of Commitment",
             "description": "Express the essence of commitment through enchanting engagement soirées! This blog explores the art of creating engagement parties that narrate the couple's journey. From intimate gatherings to extravagant celebrations, discover unique ideas that celebrate the promise of a lifelong union.",
-            "image": "../bannerImage/wedding.webp",
+            "image": "https://i.ibb.co/dpVsp9S/wedding.webp",
             "publisher": "HeartfeltUnion",
             "time": "2023-11-30"
         }

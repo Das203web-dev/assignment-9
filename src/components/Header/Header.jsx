@@ -74,7 +74,7 @@ const Header = () => {
 
     return (
         <div className="navbar bg-[#101820FF] shadow-xl  shadow-slate-600 z-50">
-            <div className="navbar-start gap-5">
+            <div className="navbar-start gap-1 items-center">
                 <div className="dropdown">
                     <label tabIndex={0} className=" lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-[#F2AA4CFF]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
