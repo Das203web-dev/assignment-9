@@ -13,35 +13,14 @@ const Register = () => {
         googleLogin()
             .then(result => {
                 if (result.user) {
-                    // toast.success('Registration Successful', {
-                    //     position: "top-right",
-                    //     autoClose: 3000,
-                    //     hideProgressBar: false,
-                    //     closeOnClick: true,
-                    //     pauseOnHover: true,
-                    //     draggable: true,
-                    //     progress: undefined,
-                    //     theme: "light",
-                    // });
+
                     navigate(location?.state ? location.state : "/")
                 }
-                // setTimeout(() => {
-                //     navigate(location?.state ? location.state : '/')
 
-                // }, 3000);
             })
             .catch(error => {
                 console.log(error.message)
-                // toast.error((error.message), {
-                //     position: "top-right",
-                //     autoClose: 3000,
-                //     hideProgressBar: false,
-                //     closeOnClick: true,
-                //     pauseOnHover: true,
-                //     draggable: true,
-                //     progress: undefined,
-                //     theme: "light",
-                // });
+
             })
     }
     // console.log(handleRegister);
