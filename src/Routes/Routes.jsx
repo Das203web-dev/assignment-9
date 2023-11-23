@@ -9,11 +9,13 @@ import Login from "../components/Login/Login";
 import Register from "../components/Register/Register";
 import Contact from "../Pages/Contact/Contact";
 import PrivateRoute from '../PrivateRoute/PrivateRoute'
+import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 
 const routes = createBrowserRouter([
     {
         path: "/",
         element: <Root></Root>,
+        errorElement: <ErrorPage></ErrorPage>,
         children: [
             {
                 path: '/',
@@ -26,7 +28,7 @@ const routes = createBrowserRouter([
             },
             {
                 path: "/gallery",
-                element: <Gallery></Gallery>
+                element: <PrivateRoute><Gallery></Gallery></PrivateRoute>
             },
             {
                 path: '/blog',

@@ -1,19 +1,20 @@
 import { useContext } from "react";
 import { GiLoveHowl } from "react-icons/gi";
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { Context } from "../../Provider/Provider";
 import Profile from "../Profile/Profile";
 
 const Header = () => {
     const { currentUser, handleSignOut } = useContext(Context);
+    const navigate = useNavigate()
 
-    const signOuHandler = () => {
+    const signOutHandler = () => {
         handleSignOut()
-            .then(result => {
-                console.log('successfull', result)
+            .then(() => {
+                navigate('/')
             })
             .catch(error => {
-                console.log(error.message)
+                console.log(error)
             })
     }
 
@@ -97,7 +98,7 @@ const Header = () => {
                     currentUser && <Profile></Profile>
                 }
                 {
-                    currentUser ? <Link onClick={signOuHandler} className="px-3 py-2 rounded text-white bg-[#F2AA4CFF]">Logout</Link> :
+                    currentUser ? <Link onClick={signOutHandler} className="px-3 py-2 rounded text-white bg-[#F2AA4CFF]">Logout</Link> :
                         <Link to={'/login'} className="px-3 py-2 rounded text-white bg-[#F2AA4CFF]">Login</Link>
                 }
             </div>

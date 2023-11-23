@@ -8,6 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const Login = () => {
     const { handleLogin } = useContext(Context);
     // const [loginInfo, setLoginInfo] = useState(null);
+
     const location = useLocation();
     const navigate = useNavigate();
     // console.log(location)
@@ -15,6 +16,7 @@ const Login = () => {
         e.preventDefault()
         const email = e.target.email.value;
         const password = e.target.password.value;
+
         console.log(email, password)
         handleLogin(email, password)
             .then(result => {
@@ -23,24 +25,29 @@ const Login = () => {
                 if (result.user) {
                     // toastAlert()
                     toast.success('Login Successful', {
-                        position: "bottom-right",
-                        autoClose: 5000,
+                        position: "top-right",
+                        autoClose: 3000,
                         hideProgressBar: false,
                         closeOnClick: true,
                         pauseOnHover: true,
                         draggable: true,
                         progress: undefined,
                         theme: "light",
+
+
                     });
+                    // navigate(location?.state ? location.state : "/")
                 }
-                navigate(location?.state ? location.state : "/")
+                setTimeout(() => {
+                    navigate(location?.state ? location.state : "/")
+                }, 3000);
                 // setLoginInfo(result.user)
 
             })
             .catch(error => {
                 toast.error((error.message), {
                     position: "top-right",
-                    autoClose: 5000,
+                    autoClose: 3000,
                     hideProgressBar: false,
                     closeOnClick: true,
                     pauseOnHover: true,
@@ -91,7 +98,7 @@ const Login = () => {
                         pauseOnHover
                         theme="light"
                     />
-                    <ToastContainer
+                    {/* <ToastContainer
                         position="bottom-right"
                         autoClose={5000}
                         hideProgressBar={false}
@@ -102,7 +109,7 @@ const Login = () => {
                         draggable
                         pauseOnHover
                         theme="light"
-                    />
+                    /> */}
                 </div>
             </div>
         </div>

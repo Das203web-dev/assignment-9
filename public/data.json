@@ -7,14 +7,15 @@
                 "A celebration of love and commitment, a wedding marks the beginning of a beautiful journey.",
                 "From exquisite decorations to capturing cherished moments, make this day unforgettable."
             ],
-            "image": "wedding_image.jpg",
+            "image": "/bannerImage/packageImg/wedding/w_gold.jpg",
             "services": [
                 {
                     "tier": "Gold",
                     "package_for": "wedding",
-                    "bg_color": "gold",
+                    "package_img": "/bannerImage/packageImg/wedding/w_gold.jpg",
                     "title": "Gold Package",
                     "brief_description": "An all-inclusive package featuring luxurious decorations, top-tier catering, and premium photography & videography services.",
+                    "price": "10000",
                     "description": [
                         {
                             "point": "An all-inclusive package featuring luxurious decorations."
@@ -30,9 +31,10 @@
                 {
                     "tier": "Silver",
                     "package_for": "wedding",
-                    "bg_color": "silver",
+                    "package_img": "/bannerImage/packageImg/wedding/w_silver.jpg",
                     "title": "Silver Package",
                     "brief_description": "Elegant decorations creating a magical atmosphere, varied menu options, and professional photography services.",
+                    "price": "5000",
                     "description": [
                         {
                             "point": "Elegant decorations creating a magical atmosphere."
@@ -48,8 +50,10 @@
                 {
                     "tier": "Basic",
                     "package_for": "wedding",
+                    "package_img": "/bannerImage/packageImg/wedding/w_basic.webp",
                     "title": "Basic Package",
                     "brief_description": "Essential decorations to enhance the ambiance, standard catering options, and basic photography coverage.",
+                    "price": "3000",
                     "description": [
                         {
                             "point": "Essential decorations to enhance the ambiance."
@@ -71,13 +75,15 @@
                 "Celebrate another year of life with joy and laughter.",
                 "From themed decorations to entertainment, make every birthday a memorable bash."
             ],
-            "image": "birthday_image.jpg",
+            "image": "/bannerImage/packageImg/birthday/b_premium.jpg",
             "services": [
                 {
                     "tier": "Premium",
                     "package_for": "birthday",
+                    "package_img": "/bannerImage/packageImg/birthday/b_premium.jpg",
                     "title": "Premium Celebration",
                     "brief_description": "Exclusive themed decorations for a personalized touch, top-tier entertainment, and customized cake and dessert options.",
+                    "price": "4000",
                     "description": [
                         {
                             "point": "Exclusive themed decorations for a personalized touch."
@@ -93,8 +99,10 @@
                 {
                     "tier": "Silver",
                     "package_for": "birthday",
+                    "package_img": "/bannerImage/packageImg/birthday/b_silver.jpg",
                     "title": "Silver Celebration",
                     "brief_description": "Themed decorations creating a festive ambiance, varied entertainment options, and a selection of delicious desserts.",
+                    "price": "3000",
                     "description": [
                         {
                             "point": "Themed decorations creating a festive ambiance."
@@ -110,8 +118,10 @@
                 {
                     "tier": "Standard",
                     "package_for": "birthday",
+                    "package_img": "/bannerImage/packageImg/birthday/b_standard.jpg",
                     "title": "Standard Celebration",
                     "brief_description": "Basic decorations to set the party mood, standard entertainment, and a birthday cake to mark the special day.",
+                    "price": "4000",
                     "description": [
                         {
                             "point": "Basic decorations to set the party mood."
@@ -133,13 +143,15 @@
                 "Commemorate years of togetherness and love.",
                 "Whether it's the first or fiftieth anniversary, celebrate your enduring bond."
             ],
-            "image": "anniversary_image.jpg",
+            "image": "/bannerImage/packageImg/anniversary/a_luxury1.webp",
             "services": [
                 {
                     "tier": "Luxury",
                     "package_for": "anniversary",
+                    "package_img": "/bannerImage/packageImg/anniversary/a_luxury1.webp",
                     "title": "Luxury Anniversary Package",
                     "brief_description": "Extravagant decorations, gourmet dining, and a romantic getaway.",
+                    "price": "7000",
                     "description": [
                         {
                             "point": "Extravagant decorations, gourmet dining, and a romantic getaway."
@@ -149,8 +161,10 @@
                 {
                     "tier": "Classic",
                     "package_for": "anniversary",
+                    "package_img": "/bannerImage/packageImg/anniversary/a_classic.webp",
                     "title": "Classic Anniversary Package",
                     "brief_description": "Traditional decorations, fine dining experience, and personalized gifts.",
+                    "price": "6000",
                     "description": [
                         {
                             "point": "Traditional decorations, fine dining experience, and personalized gifts."
@@ -160,8 +174,10 @@
                 {
                     "tier": "Simple",
                     "package_for": "anniversary",
+                    "package_img": "/bannerImage/packageImg/anniversary/a_simple.webp",
                     "title": "Simple Anniversary Package",
                     "brief_description": "Subtle decorations, intimate dinner, and a heartfelt gesture.",
+                    "price": "5000",
                     "description": [
                         {
                             "point": "Subtle decorations, intimate dinner, and a heartfelt gesture."
@@ -177,13 +193,15 @@
                 "Honor a career and a new chapter in life.",
                 "Celebrate the retiree's accomplishments and exciting future ahead."
             ],
-            "image": "retirement_image.jpg",
+            "image": "/bannerImage/packageImg/retirement/r_grand.jpg",
             "services": [
                 {
                     "tier": "Grand",
                     "package_for": "retirement",
+                    "package_img": "/bannerImage/packageImg/retirement/r_grand.jpg",
                     "title": "Grand Retirement Gala",
                     "brief_description": "Elaborate decorations, live entertainment, and heartfelt speeches.",
+                    "price": "5500",
                     "description": [
                         {
                             "point": "Elaborate decorations, live entertainment, and heartfelt speeches."
@@ -193,8 +211,10 @@
                 {
                     "tier": "Relaxed",
                     "package_for": "retirement",
+                    "package_img": "/bannerImage/packageImg/retirement/r_relaxed.jpg",
                     "title": "Relaxed Retirement Gathering",
                     "brief_description": "Casual decorations, music, and a laid-back atmosphere.",
+                    "price": "4500",
                     "description": [
                         {
                             "point": "Casual decorations, music, and a laid-back atmosphere."
@@ -204,8 +224,10 @@
                 {
                     "tier": "Private",
                     "package_for": "retirement",
+                    "package_img": "/bannerImage/packageImg/retirement/r_private.jpg",
                     "title": "Private Retirement Celebration",
                     "brief_description": "Simple decorations, close friends, and a cozy gathering.",
+                    "price": "2500",
                     "description": [
                         {
                             "point": "Simple decorations, close friends, and a cozy gathering."
@@ -221,13 +243,15 @@
                 "Mark the beginning of a lifetime together.",
                 "Celebrate the commitment and the promise of a future union."
             ],
-            "image": "engagement_image.jpg",
+            "image": "/bannerImage/packageImg/engagement/e_extra.jpg",
             "services": [
                 {
                     "tier": "Extravagant",
                     "package_for": "engagement",
+                    "package_img": "/bannerImage/packageImg/engagement/e_extra.jpg",
                     "title": "Extravagant Engagement Party",
                     "brief_description": "Opulent decorations, gourmet food, and entertainment.",
+                    "price": "9000",
                     "description": [
                         {
                             "point": "Opulent decorations, gourmet food, and entertainment."
@@ -237,8 +261,10 @@
                 {
                     "tier": "Intimate",
                     "package_for": "engagement",
+                    "package_img": "/bannerImage/packageImg/engagement/e_intimate.jpg",
                     "title": "Intimate Engagement Celebration",
                     "brief_description": "Subdued decorations, close friends, and meaningful moments.",
+                    "price": "8000",
                     "description": [
                         {
                             "point": "Subdued decorations, close friends, and meaningful moments."
@@ -248,8 +274,10 @@
                 {
                     "tier": "Outdoor",
                     "package_for": "engagement",
+                    "package_img": "/bannerImage/packageImg/engagement/e_out.webp",
                     "title": "Outdoor Engagement Gathering",
                     "brief_description": "Natural decor, picnic-style food, and games in the open air.",
+                    "price": "7000",
                     "description": [
                         {
                             "point": "Natural decor, picnic-style food, and games in the open air."
@@ -265,11 +293,12 @@
                 "Celebrate academic milestones with joy and pride.",
                 "From themed decorations to acknowledging achievements, make each graduation a remarkable event."
             ],
-            "image": "graduation_image.jpg",
+            "image": "/bannerImage/packageImg/graduation/g_premium.jpg",
             "services": [
                 {
                     "tier": "Premium",
                     "package_for": "graduation",
+                    "package_img": "/bannerImage/packageImg/graduation/g_premium.jpg",
                     "title": "Premium Graduation Celebration",
                     "brief_description": "Customized decorations reflecting the graduate's journey, exciting entertainment options, and personalized tokens for academic accomplishments.",
                     "description": [
@@ -287,6 +316,7 @@
                 {
                     "tier": "Standard",
                     "package_for": "graduation",
+                    "package_img": "/bannerImage/packageImg/graduation/g_standard.jpg",
                     "title": "Standard Graduation Party",
                     "brief_description": "Simple decorations creating a festive atmosphere, entertainment suitable for friends and family, and recognition of achievements through speeches and awards.",
                     "description": [
@@ -304,6 +334,7 @@
                 {
                     "tier": "Intimate",
                     "package_for": "graduation",
+                    "package_img": "/bannerImage/packageImg/graduation/g_inti.jpg",
                     "title": "Intimate Graduation Gathering",
                     "brief_description": "Casual decorations for a relaxed celebration, close friends and family gathering to commemorate achievements, and personalized touches for a memorable event.",
                     "description": [

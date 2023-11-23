@@ -21,10 +21,13 @@ const ServiceDetails = () => {
     })
     console.log(theResult)
     return (
-        <div style={{ backgroundColor: theResult[0]?.bg_color }}>
-            <h1 className="text-5xl">{theResult[0].tier}</h1>
-            <h1 className="text-5xl">{theResult[0].package_for}</h1>
-            <p>{theResult[0].brief_description}</p>
+        <div className="mt-5 space-y-5">
+            <img className="md:w-2/3 w-full mx-auto h-[26rem]" src={theResult[0]?.package_img} alt="" />
+            <div className=" text-center space-y-3 p-5">
+                <h1 className="text-5xl uppercase font-bold"> {theResult[0]?.package_for}</h1>
+                <h1 className="text-3xl">Package : {theResult[0]?.tier}</h1>
+                <p className="text-xl lg:w-1/4 mx-auto w-full">{theResult[0]?.brief_description}</p>
+            </div>
         </div>
     );
 };

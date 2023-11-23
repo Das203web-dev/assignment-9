@@ -19,9 +19,9 @@ const Home = () => {
 
 
 
-            <section className='flex lg:flex-row flex-col justify-between items-center shadow-2xl shadow-slate-600 gap-10 md:m-20 m-5 py-4 text-center h-full xl:h-[300px] md:text-left'>
-                <div className='h-max w-full'>
-                    <img className='lg:h-max h-full w-full md:w-2/3 lg:w-full md:mx-auto pl-5' src="/bannerImage/heroImg/1f6f66391e72468c92c47818f6545af8.png" alt="" />
+            <section className='flex lg:flex-row flex-col justify-between items-center shadow-2xl shadow-slate-600 md:m-20 m-5 p-4 text-center h-full xl:h-[300px] gap-5 md:text-left'>
+                <div className='h-min w-full'>
+                    <img className='lg:h-full h-full w-3/4 md:w-2/3 lg:w-3/4 md:mx-auto lg:mx-auto pl-5' src="/bannerImage/heroImg/1f6f66391e72468c92c47818f6545af8.png" alt="" />
                 </div>
                 <div className=' px-5 space-y-5 w-full'>
                     <h1 className='text-3xl lg:text-4xl font-semibold'>Your Vision +

@@ -5,9 +5,8 @@ import Footer from '../components/Footer/Footer';
 const Root = () => {
     return (
         <div className=' text-[#F2AA4CFF]'>
-            <Header className="relative"></Header>
-            <Outlet className='absolute top-10'></Outlet>
-            {/* <Outlet></Outlet> */}
+            <Header></Header>
+            <Outlet ></Outlet>
             <Footer></Footer>
         </div>
     );

@@ -1,9 +1,11 @@
-import { useContext } from 'react';
+import { useContext, useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Context } from '../../Provider/Provider';
+import { ToastContainer, toast } from 'react-toastify';
 
 const Register = () => {
     const { handleRegister } = useContext(Context);
+    const [registrationError, setRegistrationError] = useState(null)
     const location = useLocation();
     const navigate = useNavigate()
     // console.log(handleRegister);
@@ -11,17 +13,49 @@ const Register = () => {
         e.preventDefault()
         const email = e.target.email.value;
         const password = e.target.password.value;
+        if (password.length < 6) {
+            return setRegistrationError("Password must greater then or equals to 6")
+        }
+        else if (!/^(?=.*[A-Z])(?=.*[\W_]).*$/.test(password)) {
+            return setRegistrationError("Password must contain one uppercase letter and special character")
+        }
+
         handleRegister(email, password)
             .then(result => {
-                console.log(result.user)
                 e.target.reset()
                 if (result.user) {
-                    navigate(location?.state ? location.state : '/')
+                    toast.success('Registration Successful', {
+                        position: "top-right",
+                        autoClose: 3000,
+                        hideProgressBar: false,
+                        closeOnClick: true,
+                        pauseOnHover: true,
+                        draggable: true,
+                        progress: undefined,
+                        theme: "light",
+
+
+                    });
+
                 }
+                setTimeout(() => {
+                    navigate(location?.state ? location.state : '/')
+
+                }, 3000);
             })
             .catch(error => {
-                console.log(error.message)
+                toast.error((error.message), {
+                    position: "top-right",
+                    autoClose: 3000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "light",
+                });
             })
+        setRegistrationError("")
     }
     return (
         <div className="hero min-h-screen bg-[#101820FF] text-[#F2AA4CFF]">
@@ -49,9 +83,27 @@ const Register = () => {
                             <button className="btn w-full text-white bg-[#F2AA4CFF]">Register</button>
                         </div>
                         <h3>Already have an account ? Please <Link className='font-bold hover:underline' to={'/login'}>Login</Link></h3>
+                        <div>
+                            {
+                                registrationError ? registrationError : ""
+                            }
+                        </div>
                     </form>
+
                 </div>
             </div>
+            <ToastContainer
+                position="top-right"
+                autoClose={5000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="light"
+            />
         </div>
     );
 };
