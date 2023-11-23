@@ -3,6 +3,7 @@ import { GiLoveHowl } from "react-icons/gi";
 import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { Context } from "../../Provider/Provider";
 import Profile from "../Profile/Profile";
+import { MdOutlinePeople } from "react-icons/md";
 
 const Header = () => {
     const { currentUser, handleSignOut } = useContext(Context);
@@ -73,9 +74,9 @@ const Header = () => {
 
     return (
         <div className="navbar bg-[#101820FF] shadow-xl  shadow-slate-600 z-50">
-            <div className="navbar-start">
+            <div className="navbar-start gap-5">
                 <div className="dropdown">
-                    <label tabIndex={0} className="btn btn-ghost lg:hidden">
+                    <label tabIndex={0} className=" lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-[#F2AA4CFF]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </label>
                     <ul tabIndex={0} className="menu gap-5 menu-sm dropdown-content mt-3 z-50 p-2 shadow bg-[#101820FF]  rounded-box w-52">
@@ -83,7 +84,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <span className="flex flex-col justify-center text-center items-center">
-                    <a className="btn btn-ghost text-[#F2AA4CFF] text-xl flex flex-col">Social <span className="text-2xl text-[#FFD700]"><GiLoveHowl></GiLoveHowl></span> Events </a>
+                    <a className=" text-[#F2AA4CFF] text-xl flex flex-row gap-1 items-center">Social <span className="text-2xl text-[#FFD700]"><GiLoveHowl></GiLoveHowl></span> Events </a>
 
                 </span>
             </div>
@@ -93,9 +94,9 @@ const Header = () => {
                 </ul>
             </div>
 
-            <div className="navbar-end flex gap-5">
+            <div className="navbar-end flex gap-2">
                 {
-                    currentUser && <Profile></Profile>
+                    currentUser ? <Profile></Profile> : <MdOutlinePeople className="w-10 h-10 rounded-full"></MdOutlinePeople>
                 }
                 {
                     currentUser ? <Link onClick={signOutHandler} className="px-3 py-2 rounded text-white bg-[#F2AA4CFF]">Logout</Link> :

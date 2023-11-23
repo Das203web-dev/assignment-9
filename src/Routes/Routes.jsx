@@ -32,7 +32,7 @@ const routes = createBrowserRouter([
             },
             {
                 path: '/blog',
-                element: <Blogs></Blogs>
+                element: <PrivateRoute><Blogs></Blogs></PrivateRoute>
             },
             {
                 path: "/contact",

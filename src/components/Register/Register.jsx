@@ -2,12 +2,48 @@ import { useContext, useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Context } from '../../Provider/Provider';
 import { ToastContainer, toast } from 'react-toastify';
+import { FcGoogle } from "react-icons/fc";
 
 const Register = () => {
-    const { handleRegister } = useContext(Context);
+    const { handleRegister, googleLogin } = useContext(Context);
     const [registrationError, setRegistrationError] = useState(null)
     const location = useLocation();
-    const navigate = useNavigate()
+    const navigate = useNavigate();
+    const handleGoogleLogin = () => {
+        googleLogin()
+            .then(result => {
+                if (result.user) {
+                    // toast.success('Registration Successful', {
+                    //     position: "top-right",
+                    //     autoClose: 3000,
+                    //     hideProgressBar: false,
+                    //     closeOnClick: true,
+                    //     pauseOnHover: true,
+                    //     draggable: true,
+                    //     progress: undefined,
+                    //     theme: "light",
+                    // });
+                    navigate(location?.state ? location.state : "/")
+                }
+                // setTimeout(() => {
+                //     navigate(location?.state ? location.state : '/')
+
+                // }, 3000);
+            })
+            .catch(error => {
+                console.log(error.message)
+                // toast.error((error.message), {
+                //     position: "top-right",
+                //     autoClose: 3000,
+                //     hideProgressBar: false,
+                //     closeOnClick: true,
+                //     pauseOnHover: true,
+                //     draggable: true,
+                //     progress: undefined,
+                //     theme: "light",
+                // });
+            })
+    }
     // console.log(handleRegister);
     const registrationHandler = (e) => {
         e.preventDefault()
@@ -33,8 +69,6 @@ const Register = () => {
                         draggable: true,
                         progress: undefined,
                         theme: "light",
-
-
                     });
 
                 }
@@ -88,13 +122,28 @@ const Register = () => {
                                 registrationError ? registrationError : ""
                             }
                         </div>
+                        <button onClick={handleGoogleLogin}>
+                            <FcGoogle className='mx-auto text-2xl'></FcGoogle>
+                        </button>
                     </form>
+                    <ToastContainer
+                        position="top-right"
+                        autoClose={3000}
+                        hideProgressBar={false}
+                        newestOnTop={false}
+                        closeOnClick
+                        rtl={false}
+                        pauseOnFocusLoss
+                        draggable
+                        pauseOnHover
+                        theme="light"
+                    />
 
                 </div>
             </div>
-            <ToastContainer
+            {/* <ToastContainer
                 position="top-right"
-                autoClose={5000}
+                autoClose={3000}
                 hideProgressBar={false}
                 newestOnTop={false}
                 closeOnClick
@@ -103,7 +152,7 @@ const Register = () => {
                 draggable
                 pauseOnHover
                 theme="light"
-            />
+            /> */}
         </div>
     );
 };

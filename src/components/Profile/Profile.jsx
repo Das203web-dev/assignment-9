@@ -3,10 +3,10 @@ import { Context } from '../../Provider/Provider';
 
 const Profile = () => {
     const { currentUser } = useContext(Context);
-    // console.log(currentUser)
+    console.log(currentUser)
     return (
         <div>
-            <img src="" alt="" />
+            <img className='w-10 h-10 rounded-full' src={currentUser.photoURL} alt="" />
         </div>
     );
 };

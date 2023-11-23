@@ -1,12 +1,17 @@
-import { createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndPassword, signOut } from "firebase/auth";
+import { GoogleAuthProvider, createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut } from "firebase/auth";
 import { createContext, useEffect, useState } from "react";
 import auth from "../Firebase/firebase.config";
 import { ToastContainer, } from "react-toastify";
 import PropTypes from 'prop-types';
 
 export const Context = createContext(null);
+const googleProvider = new GoogleAuthProvider()
 
 const Provider = ({ children }) => {
+
+    const googleLogin = () => {
+        return signInWithPopup(auth, googleProvider)
+    }
 
     const [blogs, setBlogs] = useState([]);
     const [currentUser, setCurrentUser] = useState(null);
@@ -42,7 +47,7 @@ const Provider = ({ children }) => {
             </div>
         )
     }
-    const authPro = { blogs, handleRegister, handleLogin, handleSignOut, currentUser, toastAlert, loading };
+    const authPro = { blogs, handleRegister, handleLogin, handleSignOut, currentUser, toastAlert, loading, googleLogin };
     // console.log(blogs)
     return (
         <Context.Provider value={authPro}>
